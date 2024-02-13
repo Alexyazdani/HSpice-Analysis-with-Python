@@ -3,7 +3,7 @@ EE477L
 Lab 4
 Fall 2023
 
-This project demonstrates how to use python analyze HSpice simulation data.
+This project demonstrates how to use python to analyze HSpice simulation data.
 
 The Hspice script used in this part of the lab is DRAM.sp. The variables C_VAL and W_VAL were created. This allows the script to sweep over a range of values.
 These are specified by dram_sweep_data.txt, which is included in a statement at the beginning of the script. In the .TRAN line, “SWEEP data = mydata” is appended, which lets the script know what data to sweep.
