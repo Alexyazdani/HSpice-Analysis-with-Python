@@ -1,0 +1,878 @@
+Using: /usr/local/synopsys/HSPICE/default/hspice/linux64/hspice DRAM_sweep
+ ****** HSPICE -- L-2016.06 linux64 (May 22 2016) ******                        
+  Copyright (c) 1986 - 2023 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: DRAM_sweep.sp                                                     
+  Command line options: /usr/local/synopsys/HSPICE/default/hspice/linux64/hspice DRAM_sweep
+ lic:  
+ lic: FLEXlm: v11.2.1 
+ lic: USER:   ayazdani             HOSTNAME: viterbi-scf2 
+ lic: HOSTID: "e4434b6e9272"       PID:      215542 
+ lic: Using FLEXlm license file: 
+ lic: 1720@ics-lic2.usc.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 30-jun-2025/2023.03 
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 1720@ics-lic2.usc.edu 
+ lic:   
+  **warning** (cmosn:m1 (DRAM_sweep.sp:17)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=1.2e-07 l=4.5e-08.
+  
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     1 ***
+
+ ******
+ 
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ rtl=   1.4701u  targ=   1.4701u   trig=   0.        
+ avg_cur=  -1.3397p  from=   0.             to=   1.4701u
+ avg_pwr=-940.8277f  from=   0.             to=   1.4701u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     2 ***
+
+ rtl=  15.8785u  targ=  15.8785u   trig=   0.        
+ avg_cur= -15.6825p  from=   0.             to=  15.8785u
+ avg_pwr= -10.9791p  from=   0.             to=  15.8785u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     3 ***
+
+ rtl=  19.3630u  targ=  19.3630u   trig=   0.        
+ avg_cur= -15.8954p  from=   0.             to=  19.3630u
+ avg_pwr= -11.1281p  from=   0.             to=  19.3630u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     4 ***
+
+ rtl=  23.5387u  targ=  23.5387u   trig=   0.        
+ avg_cur= -16.0792p  from=   0.             to=  23.5387u
+ avg_pwr= -11.2579p  from=   0.             to=  23.5387u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     5 ***
+
+ rtl=  28.5516u  targ=  28.5516u   trig=   0.        
+ avg_cur= -16.0980p  from=   0.             to=  28.5516u
+ avg_pwr= -11.2831p  from=   0.             to=  28.5516u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     6 ***
+
+ rtl=  34.6837u  targ=  34.6837u   trig=   0.        
+ avg_cur= -16.2639p  from=   0.             to=  34.6837u
+ avg_pwr= -11.4047p  from=   0.             to=  34.6837u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     7 ***
+
+ rtl=  42.3234u  targ=  42.3234u   trig=   0.        
+ avg_cur= -16.4033p  from=   0.             to=  42.3234u
+ avg_pwr= -11.5002p  from=   0.             to=  42.3234u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     8 ***
+
+ rtl=  51.9569u  targ=  51.9569u   trig=   0.        
+ avg_cur= -16.5032p  from=   0.             to=  51.9569u
+ avg_pwr= -11.5660p  from=   0.             to=  51.9569u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =     9 ***
+
+ rtl=  63.5264u  targ=  63.5264u   trig=   0.        
+ avg_cur= -16.6062p  from=   0.             to=  63.5264u
+ avg_pwr= -11.6375p  from=   0.             to=  63.5264u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    10 ***
+
+ rtl=  77.8820u  targ=  77.8820u   trig=   0.        
+ avg_cur= -16.6803p  from=   0.             to=  77.8820u
+ avg_pwr= -11.6870p  from=   0.             to=  77.8820u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    11 ***
+
+ rtl=  95.5973u  targ=  95.5973u   trig=   0.        
+ avg_cur= -16.7371p  from=   0.             to=  95.5973u
+ avg_pwr= -11.7246p  from=   0.             to=  95.5973u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    12 ***
+
+ rtl=   1.3994u  targ=   1.3994u   trig=   0.        
+ avg_cur=  -1.4064p  from=   0.             to=   1.3994u
+ avg_pwr=-987.8223f  from=   0.             to=   1.3994u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    13 ***
+
+ rtl=  10.6462u  targ=  10.6462u   trig=   0.        
+ avg_cur= -23.4221p  from=   0.             to=  10.6462u
+ avg_pwr= -16.3963p  from=   0.             to=  10.6462u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    14 ***
+
+ rtl=  12.8562u  targ=  12.8562u   trig=   0.        
+ avg_cur= -23.9324p  from=   0.             to=  12.8562u
+ avg_pwr= -16.7559p  from=   0.             to=  12.8562u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    15 ***
+
+ rtl=  15.5496u  targ=  15.5496u   trig=   0.        
+ avg_cur= -24.3353p  from=   0.             to=  15.5496u
+ avg_pwr= -17.0377p  from=   0.             to=  15.5496u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    16 ***
+
+ rtl=  18.8829u  targ=  18.8829u   trig=   0.        
+ avg_cur= -24.6558p  from=   0.             to=  18.8829u
+ avg_pwr= -17.2615p  from=   0.             to=  18.8829u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    17 ***
+
+ rtl=  22.9313u  targ=  22.9313u   trig=   0.        
+ avg_cur= -24.6464p  from=   0.             to=  22.9313u
+ avg_pwr= -17.2753p  from=   0.             to=  22.9313u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    18 ***
+
+ rtl=  27.8628u  targ=  27.8628u   trig=   0.        
+ avg_cur= -24.9639p  from=   0.             to=  27.8628u
+ avg_pwr= -17.4966p  from=   0.             to=  27.8628u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    19 ***
+
+ rtl=  33.9121u  targ=  33.9121u   trig=   0.        
+ avg_cur= -25.2229p  from=   0.             to=  33.9121u
+ avg_pwr= -17.6865p  from=   0.             to=  33.9121u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    20 ***
+
+ rtl=  41.3681u  targ=  41.3681u   trig=   0.        
+ avg_cur= -25.4537p  from=   0.             to=  41.3681u
+ avg_pwr= -17.8464p  from=   0.             to=  41.3681u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    21 ***
+
+ rtl=  50.7525u  targ=  50.7525u   trig=   0.        
+ avg_cur= -25.5995p  from=   0.             to=  50.7525u
+ avg_pwr= -17.9411p  from=   0.             to=  50.7525u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    22 ***
+
+ rtl=  62.0051u  targ=  62.0051u   trig=   0.        
+ avg_cur= -25.7691p  from=   0.             to=  62.0051u
+ avg_pwr= -18.0602p  from=   0.             to=  62.0051u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    23 ***
+
+ rtl=   1.3657u  targ=   1.3657u   trig=   0.        
+ avg_cur=  -1.4406p  from=   0.             to=   1.3657u
+ avg_pwr=  -1.0119p  from=   0.             to=   1.3657u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    24 ***
+
+ rtl=   8.2391u  targ=   8.2391u   trig=   0.        
+ avg_cur= -29.5457p  from=   0.             to=   8.2391u
+ avg_pwr= -20.7303p  from=   0.             to=   8.2391u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    25 ***
+
+ rtl=   9.8275u  targ=   9.8275u   trig=   0.        
+ avg_cur= -31.3831p  from=   0.             to=   9.8275u
+ avg_pwr= -21.9670p  from=   0.             to=   9.8275u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    26 ***
+
+ rtl=  11.7576u  targ=  11.7576u   trig=   0.        
+ avg_cur= -32.1871p  from=   0.             to=  11.7576u
+ avg_pwr= -22.5366p  from=   0.             to=  11.7576u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    27 ***
+
+ rtl=  14.2014u  targ=  14.2014u   trig=   0.        
+ avg_cur= -32.7693p  from=   0.             to=  14.2014u
+ avg_pwr= -22.9433p  from=   0.             to=  14.2014u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    28 ***
+
+ rtl=  17.2249u  targ=  17.2249u   trig=   0.        
+ avg_cur= -33.2474p  from=   0.             to=  17.2249u
+ avg_pwr= -23.2770p  from=   0.             to=  17.2249u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    29 ***
+
+ rtl=  20.9320u  targ=  20.9320u   trig=   0.        
+ avg_cur= -33.6466p  from=   0.             to=  20.9320u
+ avg_pwr= -23.5567p  from=   0.             to=  20.9320u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    30 ***
+
+ rtl=  25.4656u  targ=  25.4656u   trig=   0.        
+ avg_cur= -33.6654p  from=   0.             to=  25.4656u
+ avg_pwr= -23.5954p  from=   0.             to=  25.4656u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    31 ***
+
+ rtl=  30.9966u  targ=  30.9966u   trig=   0.        
+ avg_cur= -34.0667p  from=   0.             to=  30.9966u
+ avg_pwr= -23.8757p  from=   0.             to=  30.9966u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    32 ***
+
+ rtl=  37.7044u  targ=  37.7044u   trig=   0.        
+ avg_cur= -34.3777p  from=   0.             to=  37.7044u
+ avg_pwr= -24.1047p  from=   0.             to=  37.7044u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    33 ***
+
+ rtl=  46.1578u  targ=  46.1578u   trig=   0.        
+ avg_cur= -34.6175p  from=   0.             to=  46.1578u
+ avg_pwr= -24.2649p  from=   0.             to=  46.1578u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    34 ***
+
+ rtl=   1.3459u  targ=   1.3459u   trig=   0.        
+ avg_cur=  -1.4614p  from=   0.             to=   1.3459u
+ avg_pwr=  -1.0266p  from=   0.             to=   1.3459u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    35 ***
+
+ rtl=   6.7976u  targ=   6.7976u   trig=   0.        
+ avg_cur= -35.7139p  from=   0.             to=   6.7976u
+ avg_pwr= -25.0665p  from=   0.             to=   6.7976u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    36 ***
+
+ rtl=   8.0877u  targ=   8.0877u   trig=   0.        
+ avg_cur= -37.1917p  from=   0.             to=   8.0877u
+ avg_pwr= -26.0953p  from=   0.             to=   8.0877u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    37 ***
+
+ rtl=   9.6086u  targ=   9.6086u   trig=   0.        
+ avg_cur= -39.5043p  from=   0.             to=   9.6086u
+ avg_pwr= -27.6501p  from=   0.             to=   9.6086u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    38 ***
+
+ rtl=  11.4856u  targ=  11.4856u   trig=   0.        
+ avg_cur= -40.5378p  from=   0.             to=  11.4856u
+ avg_pwr= -28.3825p  from=   0.             to=  11.4856u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    39 ***
+
+ rtl=  13.8628u  targ=  13.8628u   trig=   0.        
+ avg_cur= -41.3001p  from=   0.             to=  13.8628u
+ avg_pwr= -28.9167p  from=   0.             to=  13.8628u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    40 ***
+
+ rtl=  16.7978u  targ=  16.7978u   trig=   0.        
+ avg_cur= -41.9154p  from=   0.             to=  16.7978u
+ avg_pwr= -29.3461p  from=   0.             to=  16.7978u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    41 ***
+
+ rtl=  20.4620u  targ=  20.4620u   trig=   0.        
+ avg_cur= -42.4286p  from=   0.             to=  20.4620u
+ avg_pwr= -29.7052p  from=   0.             to=  20.4620u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    42 ***
+
+ rtl=  24.8603u  targ=  24.8603u   trig=   0.        
+ avg_cur= -42.4414p  from=   0.             to=  24.8603u
+ avg_pwr= -29.7463p  from=   0.             to=  24.8603u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    43 ***
+
+ rtl=  30.2642u  targ=  30.2642u   trig=   0.        
+ avg_cur= -42.9553p  from=   0.             to=  30.2642u
+ avg_pwr= -30.1049p  from=   0.             to=  30.2642u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    44 ***
+
+ rtl=  36.8027u  targ=  36.8027u   trig=   0.        
+ avg_cur= -43.3519p  from=   0.             to=  36.8027u
+ avg_pwr= -30.3969p  from=   0.             to=  36.8027u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    45 ***
+
+ rtl=   1.4503u  targ=   1.4503u   trig=   0.        
+ avg_cur=  -1.3582p  from=   0.             to=   1.4503u
+ avg_pwr=-953.8206f  from=   0.             to=   1.4503u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    46 ***
+
+ rtl=  15.4799u  targ=  15.4799u   trig=   0.        
+ avg_cur= -16.0505p  from=   0.             to=  15.4799u
+ avg_pwr= -11.2397p  from=   0.             to=  15.4799u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    47 ***
+
+ rtl=  18.8618u  targ=  18.8618u   trig=   0.        
+ avg_cur= -16.2738p  from=   0.             to=  18.8618u
+ avg_pwr= -11.3964p  from=   0.             to=  18.8618u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    48 ***
+
+ rtl=  22.9664u  targ=  22.9664u   trig=   0.        
+ avg_cur= -16.4499p  from=   0.             to=  22.9664u
+ avg_pwr= -11.5190p  from=   0.             to=  22.9664u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    49 ***
+
+ rtl=  27.9728u  targ=  27.9728u   trig=   0.        
+ avg_cur= -16.6034p  from=   0.             to=  27.9728u
+ avg_pwr= -11.6273p  from=   0.             to=  27.9728u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    50 ***
+
+ rtl=  34.0282u  targ=  34.0282u   trig=   0.        
+ avg_cur= -16.6010p  from=   0.             to=  34.0282u
+ avg_pwr= -11.6401p  from=   0.             to=  34.0282u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    51 ***
+
+ rtl=  41.4445u  targ=  41.4445u   trig=   0.        
+ avg_cur= -16.7614p  from=   0.             to=  41.4445u
+ avg_pwr= -11.7518p  from=   0.             to=  41.4445u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    52 ***
+
+ rtl=  50.7693u  targ=  50.7693u   trig=   0.        
+ avg_cur= -16.8789p  from=   0.             to=  50.7693u
+ avg_pwr= -11.8317p  from=   0.             to=  50.7693u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    53 ***
+
+ rtl=  62.1558u  targ=  62.1558u   trig=   0.        
+ avg_cur= -16.9756p  from=   0.             to=  62.1558u
+ avg_pwr= -11.8973p  from=   0.             to=  62.1558u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    54 ***
+
+ rtl=  76.2357u  targ=  76.2357u   trig=   0.        
+ avg_cur= -17.0482p  from=   0.             to=  76.2357u
+ avg_pwr= -11.9452p  from=   0.             to=  76.2357u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    55 ***
+
+ rtl=  93.5017u  targ=  93.5017u   trig=   0.        
+ avg_cur= -17.1122p  from=   0.             to=  93.5017u
+ avg_pwr= -11.9886p  from=   0.             to=  93.5017u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    56 ***
+
+ rtl=   1.3809u  targ=   1.3809u   trig=   0.        
+ avg_cur=  -1.4258p  from=   0.             to=   1.3809u
+ avg_pwr=  -1.0014p  from=   0.             to=   1.3809u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    57 ***
+
+ rtl=  10.4709u  targ=  10.4709u   trig=   0.        
+ avg_cur= -23.8650p  from=   0.             to=  10.4709u
+ avg_pwr= -16.6992p  from=   0.             to=  10.4709u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    58 ***
+
+ rtl=  12.6097u  targ=  12.6097u   trig=   0.        
+ avg_cur= -24.4231p  from=   0.             to=  12.6097u
+ avg_pwr= -17.0958p  from=   0.             to=  12.6097u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    59 ***
+
+ rtl=  15.1818u  targ=  15.1818u   trig=   0.        
+ avg_cur= -24.8900p  from=   0.             to=  15.1818u
+ avg_pwr= -17.4287p  from=   0.             to=  15.1818u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    60 ***
+
+ rtl=  18.3874u  targ=  18.3874u   trig=   0.        
+ avg_cur= -25.2476p  from=   0.             to=  18.3874u
+ avg_pwr= -17.6817p  from=   0.             to=  18.3874u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    61 ***
+
+ rtl=  22.3977u  targ=  22.3977u   trig=   0.        
+ avg_cur= -25.5183p  from=   0.             to=  22.3977u
+ avg_pwr= -17.8697p  from=   0.             to=  22.3977u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    62 ***
+
+ rtl=  27.2844u  targ=  27.2844u   trig=   0.        
+ avg_cur= -25.7525p  from=   0.             to=  27.2844u
+ avg_pwr= -18.0344p  from=   0.             to=  27.2844u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    63 ***
+
+ rtl=  33.2582u  targ=  33.2582u   trig=   0.        
+ avg_cur= -25.7498p  from=   0.             to=  33.2582u
+ avg_pwr= -18.0549p  from=   0.             to=  33.2582u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    64 ***
+
+ rtl=  40.5569u  targ=  40.5569u   trig=   0.        
+ avg_cur= -25.9952p  from=   0.             to=  40.5569u
+ avg_pwr= -18.2251p  from=   0.             to=  40.5569u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    65 ***
+
+ rtl=  49.5665u  targ=  49.5665u   trig=   0.        
+ avg_cur= -26.1886p  from=   0.             to=  49.5665u
+ avg_pwr= -18.3584p  from=   0.             to=  49.5665u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    66 ***
+
+ rtl=  60.7378u  targ=  60.7378u   trig=   0.        
+ avg_cur= -26.3280p  from=   0.             to=  60.7378u
+ avg_pwr= -18.4515p  from=   0.             to=  60.7378u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    67 ***
+
+ rtl=   1.3495u  targ=   1.3495u   trig=   0.        
+ avg_cur=  -1.4596p  from=   0.             to=   1.3495u
+ avg_pwr=  -1.0252p  from=   0.             to=   1.3495u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    68 ***
+
+ rtl=   8.0720u  targ=   8.0720u   trig=   0.        
+ avg_cur= -30.1750p  from=   0.             to=   8.0720u
+ avg_pwr= -21.1787p  from=   0.             to=   8.0720u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    69 ***
+
+ rtl=   9.6573u  targ=   9.6573u   trig=   0.        
+ avg_cur= -32.0135p  from=   0.             to=   9.6573u
+ avg_pwr= -22.3970p  from=   0.             to=   9.6573u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    70 ***
+
+ rtl=  11.5647u  targ=  11.5647u   trig=   0.        
+ avg_cur= -32.8013p  from=   0.             to=  11.5647u
+ avg_pwr= -22.9566p  from=   0.             to=  11.5647u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    71 ***
+
+ rtl=  13.9030u  targ=  13.9030u   trig=   0.        
+ avg_cur= -33.4739p  from=   0.             to=  13.9030u
+ avg_pwr= -23.4350p  from=   0.             to=  13.9030u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    72 ***
+
+ rtl=  16.7585u  targ=  16.7585u   trig=   0.        
+ avg_cur= -34.0600p  from=   0.             to=  16.7585u
+ avg_pwr= -23.8559p  from=   0.             to=  16.7585u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    73 ***
+
+ rtl=  20.3986u  targ=  20.3986u   trig=   0.        
+ avg_cur= -34.4419p  from=   0.             to=  20.3986u
+ avg_pwr= -24.1197p  from=   0.             to=  20.3986u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    74 ***
+
+ rtl=  24.9048u  targ=  24.9048u   trig=   0.        
+ avg_cur= -34.7768p  from=   0.             to=  24.9048u
+ avg_pwr= -24.3541p  from=   0.             to=  24.9048u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    75 ***
+
+ rtl=  30.3106u  targ=  30.3106u   trig=   0.        
+ avg_cur= -34.7572p  from=   0.             to=  30.3106u
+ avg_pwr= -24.3728p  from=   0.             to=  30.3106u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    76 ***
+
+ rtl=  36.9880u  targ=  36.9880u   trig=   0.        
+ avg_cur= -35.0959p  from=   0.             to=  36.9880u
+ avg_pwr= -24.6056p  from=   0.             to=  36.9880u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    77 ***
+
+ rtl=  45.0821u  targ=  45.0821u   trig=   0.        
+ avg_cur= -35.4149p  from=   0.             to=  45.0821u
+ avg_pwr= -24.8299p  from=   0.             to=  45.0821u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    78 ***
+
+ rtl=   1.3310u  targ=   1.3310u   trig=   0.        
+ avg_cur=  -1.4802p  from=   0.             to=   1.3310u
+ avg_pwr=  -1.0396p  from=   0.             to=   1.3310u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    79 ***
+
+ rtl=   6.6514u  targ=   6.6514u   trig=   0.        
+ avg_cur= -36.4628p  from=   0.             to=   6.6514u
+ avg_pwr= -25.6031p  from=   0.             to=   6.6514u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    80 ***
+
+ rtl=   7.9218u  targ=   7.9218u   trig=   0.        
+ avg_cur= -37.9887p  from=   0.             to=   7.9218u
+ avg_pwr= -26.6636p  from=   0.             to=   7.9218u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    81 ***
+
+ rtl=   9.4405u  targ=   9.4405u   trig=   0.        
+ avg_cur= -40.3013p  from=   0.             to=   9.4405u
+ avg_pwr= -28.1938p  from=   0.             to=   9.4405u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    82 ***
+
+ rtl=  11.2982u  targ=  11.2982u   trig=   0.        
+ avg_cur= -41.3084p  from=   0.             to=  11.2982u
+ avg_pwr= -28.9090p  from=   0.             to=  11.2982u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    83 ***
+
+ rtl=  13.5827u  targ=  13.5827u   trig=   0.        
+ avg_cur= -42.1716p  from=   0.             to=  13.5827u
+ avg_pwr= -29.5229p  from=   0.             to=  13.5827u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    84 ***
+
+ rtl=  16.3562u  targ=  16.3562u   trig=   0.        
+ avg_cur= -42.9244p  from=   0.             to=  16.3562u
+ avg_pwr= -30.0634p  from=   0.             to=  16.3562u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    85 ***
+
+ rtl=  19.9360u  targ=  19.9360u   trig=   0.        
+ avg_cur= -43.4363p  from=   0.             to=  19.9360u
+ avg_pwr= -30.4191p  from=   0.             to=  19.9360u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    86 ***
+
+ rtl=  24.3047u  targ=  24.3047u   trig=   0.        
+ avg_cur= -43.8684p  from=   0.             to=  24.3047u
+ avg_pwr= -30.7200p  from=   0.             to=  24.3047u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    87 ***
+
+ rtl=  29.6529u  targ=  29.6529u   trig=   0.        
+ avg_cur= -43.8597p  from=   0.             to=  29.6529u
+ avg_pwr= -30.7391p  from=   0.             to=  29.6529u
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = mydata , index =    88 ***
+
+ rtl=  36.1002u  targ=  36.1002u   trig=   0.        
+ avg_cur= -44.2581p  from=   0.             to=  36.1002u
+ avg_pwr= -31.0293p  from=   0.             to=  36.1002u
+
+          ***** job concluded
+1****** HSPICE -- L-2016.06 linux64 (May 22 2016) ******                        
+ ******  
+ 
+
+ ****** job statistics summary tnom=  25.000 temp=  85.000 ******
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz
+ cpu MHz	: 3341.882
+  
+ OS:
+ Linux version 3.10.0-1160.95.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Mon Jul 24 13:59:37 UTC 2023
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :   112
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       8 # elements   =       4
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       2
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       1 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.03           1         352
+  transient          2.47   176000088        7006        3487 rev=         0
+  readin             0.02
+  errchk             0.00
+  setup              0.00
+  output             0.01
+
+
+           peak memory used        184.29 megabytes
+           total cpu time            2.54 seconds
+           total elapsed time        2.21 seconds
+           job started at     18:12:07 11/28/2023
+           job ended   at     18:12:09 11/28/2023
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.04(s)
