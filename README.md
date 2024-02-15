@@ -5,7 +5,7 @@ Fall 2023
 
 This project demonstrates how to use python to analyze HSpice simulation data.
 
-The Hspice script used in this part of the lab is DRAM.sp. The variables C_VAL and W_VAL were created. This allows the script to sweep over a range of values.
+The Hspice script used is DRAM.sp. The variables C_VAL and W_VAL were created. This allows the script to sweep over a range of values.
 These are specified by dram_sweep_data.txt, which is included in a statement at the beginning of the script. In the .TRAN line, “SWEEP data = mydata” is appended, which lets the script know what data to sweep.
 
 The first script, generate_data_file.py, generates the .txt file containing the values for Hspice to sweep. The .py file starts by setting up lists containing the variable combinations necessary. It then begins writing to a .txt file, considering every variable combination through nested for loops. The file is then closed.
