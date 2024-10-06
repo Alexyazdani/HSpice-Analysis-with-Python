@@ -1,7 +1,6 @@
-Alex Yazdani
-EE477L
-Lab 4
-Fall 2023
+Alexander Yazdani
+
+University of Southern California
 
 This project demonstrates how to use python to analyze HSpice simulation data.
 
